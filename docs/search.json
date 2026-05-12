@@ -18,28 +18,14 @@
     "href": "index.html#pros-and-cons",
     "title": "A Sequence of Shenanigans",
     "section": "… Pros and cons",
-    "text": "… Pros and cons\n\nDoes not require clonal amplification\nLibrary preparation is much simpler\nGenerates much longer reads\nSuffers from accuracy - or maybe not so much\n\nIf I have a 1 in 10 chance of an error, which is random:\n\\[(\\frac{1}{10})^{10} = \\frac{1}{10^{10}}\\]"
-  },
-  {
-    "objectID": "index.html#pacbio-single-molecule-real-time-smrt",
-    "href": "index.html#pacbio-single-molecule-real-time-smrt",
-    "title": "A Sequence of Shenanigans",
-    "section": "PacBio Single-molecule real-time (SMRT)",
-    "text": "PacBio Single-molecule real-time (SMRT)\n\nLibrary preparation\n\nFormation of a SMRTbell as template\n\nClosed single stranded circular DNA\nThis is achieved by ligating hairpin adaptors to both ends of the target dsDNA\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 3: Rhoads A and Fai Au K (2015), doi: 10.1016/j.gpb.2015.08.002"
-  },
-  {
-    "objectID": "index.html#pacific-biosciences-sales-pitch",
-    "href": "index.html#pacific-biosciences-sales-pitch",
-    "title": "A Sequence of Shenanigans",
-    "section": "Pacific Biosciences: Sales pitch",
-    "text": "Pacific Biosciences: Sales pitch"
+    "text": "… Pros and cons\n\nDoes not require clonal amplification\nLibrary preparation is much simpler\nGenerates much longer reads\nSuffers from accuracy - or maybe not so much\n\nIf I have a 1 in 10 chance of an error, which is random:\n\\[(\\frac{1}{10})^{10} = \\frac{1}{10^{10}}\\]\n\n\n\n\n\n\n\nContinued improvement\n\n\nBoth chemistry and basecalling"
   },
   {
     "objectID": "index.html#oxford-nanopore-technologies",
     "href": "index.html#oxford-nanopore-technologies",
     "title": "A Sequence of Shenanigans",
     "section": "Oxford Nanopore Technologies",
-    "text": "Oxford Nanopore Technologies\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 5: https://nanoporetech.com/platform/technology/basecalling"
+    "text": "Oxford Nanopore Technologies\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 3: https://nanoporetech.com/platform/technology/basecalling"
   },
   {
     "objectID": "index.html#the-ont-principle",
@@ -49,32 +35,25 @@
     "text": "The ONT principle\n\nBiological pores or transporters are embedded in a semiconductor chip\n\nAs particles pass through this chip the resistance over the membrane changes\n\ndsDNA or RNA is mixed with a motor protein which binds these molecules to the pores\nThe DNA or RNA is threaded through the pores and the changes in current is recorded\nThis wave pattern is used to infer the sequence\nVery long read lengths\nCan detect epigenetics\nThey promise protein sequencing\n\nMulti-omics"
   },
   {
-    "objectID": "index.html#oxford-nanopore-technologies-sales-pitch",
-    "href": "index.html#oxford-nanopore-technologies-sales-pitch",
-    "title": "A Sequence of Shenanigans",
-    "section": "Oxford Nanopore Technologies: Sales pitch",
-    "text": "Oxford Nanopore Technologies: Sales pitch"
-  },
-  {
     "objectID": "index.html#innovations-from-different-fields",
     "href": "index.html#innovations-from-different-fields",
     "title": "A Sequence of Shenanigans",
     "section": "Innovations from different fields",
-    "text": "Innovations from different fields\n\n\n\n\n\n\n\n\n\n\nFigure 7: https://doi.org/10.1038/s41746-024-01345-9\n\n\n\nBlog on basecalling"
+    "text": "Innovations from different fields\n\n\n\n\n\n\n\n\n\n\nFigure 5: https://doi.org/10.1038/s41746-024-01345-9\n\n\n\nBlog on basecalling"
   },
   {
     "objectID": "index.html#many-more-developments",
     "href": "index.html#many-more-developments",
     "title": "A Sequence of Shenanigans",
     "section": "Many more developments",
-    "text": "Many more developments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 8: Yanzhe Qin, et al (2025) DOI: https://doi.org/10.1038/s41592-025-02730-2"
+    "text": "Many more developments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: Yanzhe Qin, et al (2025) DOI: https://doi.org/10.1038/s41592-025-02730-2"
   },
   {
     "objectID": "index.html#cost-vs.-moore",
     "href": "index.html#cost-vs.-moore",
     "title": "A Sequence of Shenanigans",
     "section": "Cost vs. Moore",
-    "text": "Cost vs. Moore\n\n\n\n\n\n\n\n\n\n\nFigure 9: https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
+    "text": "Cost vs. Moore\n\n\n\n\n\n\n\n\n\n\nFigure 7: https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
   },
   {
     "objectID": "index.html#phred-q-scores",
@@ -88,98 +67,98 @@
     "href": "index.html#raw-data-and-quality",
     "title": "A Sequence of Shenanigans",
     "section": "Raw data and quality",
-    "text": "Raw data and quality\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 10: https://www.drive5.com/usearch/manual/fastq_files.html"
+    "text": "Raw data and quality\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 8: https://www.drive5.com/usearch/manual/fastq_files.html"
   },
   {
     "objectID": "index.html#the-puzzle-and-the-box",
     "href": "index.html#the-puzzle-and-the-box",
     "title": "A Sequence of Shenanigans",
     "section": "The puzzle and the box",
-    "text": "The puzzle and the box\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 11: DallE generated flowers & Read types"
+    "text": "The puzzle and the box\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 9: DallE generated flowers & Read types"
   },
   {
     "objectID": "index.html#sars-cov-2",
     "href": "index.html#sars-cov-2",
     "title": "A Sequence of Shenanigans",
     "section": "SARS-CoV-2",
-    "text": "SARS-CoV-2\n\n\n\n\n\n\n\n\n\n\nFigure 12: Illustration by David S. Goodsell, RCSB Protein Data Bank; doi: 10.2210/rcsb_pdb/goodsell-gallery-026\n\n\n\nGoodsell gallery or Goodsell at Scripps"
+    "text": "SARS-CoV-2\n\n\n\n\n\n\n\n\n\n\nFigure 10: Illustration by David S. Goodsell, RCSB Protein Data Bank; doi: 10.2210/rcsb_pdb/goodsell-gallery-026\n\n\n\nGoodsell gallery or Goodsell at Scripps"
   },
   {
     "objectID": "index.html#tiling-pcr",
     "href": "index.html#tiling-pcr",
     "title": "A Sequence of Shenanigans",
     "section": "Tiling PCR",
-    "text": "Tiling PCR\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 13: Trippy tunes and tiling PCR design software"
+    "text": "Tiling PCR\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 11: Trippy tunes and tiling PCR design software"
   },
   {
     "objectID": "index.html#tiled-reads-mapped",
     "href": "index.html#tiled-reads-mapped",
     "title": "A Sequence of Shenanigans",
     "section": "Tiled reads mapped",
-    "text": "Tiled reads mapped\n\n\n\n\n\n\n\n\n\n\nFigure 14: Snapshot of tiled PCR products mapped against SARS-COV2 ref genome"
+    "text": "Tiled reads mapped\n\n\n\n\n\n\n\n\n\n\nFigure 12: Snapshot of tiled PCR products mapped against SARS-COV2 ref genome"
   },
   {
     "objectID": "index.html#necessity-and-the-pink-calculator",
     "href": "index.html#necessity-and-the-pink-calculator",
     "title": "A Sequence of Shenanigans",
     "section": "Necessity and the pink calculator",
-    "text": "Necessity and the pink calculator\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 15: A dodgy pink calculator and the lemonade"
+    "text": "Necessity and the pink calculator\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 13: A dodgy pink calculator and the lemonade"
   },
   {
     "objectID": "index.html#contributing-to-a-global-effort",
     "href": "index.html#contributing-to-a-global-effort",
     "title": "A Sequence of Shenanigans",
     "section": "Contributing to a global effort",
-    "text": "Contributing to a global effort\n\n\n\n\n\n\n\n\n\n\nFigure 16: GISAID"
+    "text": "Contributing to a global effort\n\n\n\n\n\n\n\n\n\n\nFigure 14: GISAID"
   },
   {
     "objectID": "index.html#analysis",
     "href": "index.html#analysis",
     "title": "A Sequence of Shenanigans",
     "section": "… analysis",
-    "text": "… analysis\nearly days\n\n\n\n\n\n\n\n\n\n\nFigure 17: https://epi2me.nanoporetech.com/sarscov2-midnight-analysis/\n\n\n\nMidnight Analysis\nExample results"
+    "text": "… analysis\nearly days\n\n\n\n\n\n\n\n\n\n\nFigure 15: https://epi2me.nanoporetech.com/sarscov2-midnight-analysis/\n\n\n\nMidnight Analysis\nExample results"
   },
   {
     "objectID": "index.html#a-kraken-and-a-bag-of-pebbles",
     "href": "index.html#a-kraken-and-a-bag-of-pebbles",
     "title": "A Sequence of Shenanigans",
     "section": "A kraken and a bag of pebbles",
-    "text": "A kraken and a bag of pebbles\nFrom k-mer counting to taxonomic classification\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 18: Flux AI: Kraken sea monster with a tentacle in a bag of differently coloured pebbles and DOI:https://doi.org/10.1038/s41596-022-00738-y\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 19: Comput Math Methods Med. 2021 Jul 15;2021:1835056. doi: 10.1155/2021/1835056."
+    "text": "A kraken and a bag of pebbles\nFrom k-mer counting to taxonomic classification\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 16: Flux AI: Kraken sea monster with a tentacle in a bag of differently coloured pebbles and DOI:https://doi.org/10.1038/s41596-022-00738-y\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 17: Comput Math Methods Med. 2021 Jul 15;2021:1835056. doi: 10.1155/2021/1835056."
   },
   {
     "objectID": "index.html#infant-microbiomevirome",
     "href": "index.html#infant-microbiomevirome",
     "title": "A Sequence of Shenanigans",
     "section": "Infant microbiome/virome",
-    "text": "Infant microbiome/virome\nShotgun/Random hexamer amplification\n\n\n\n\n\n\n\n\n\n\nFigure 20: https://www.livescience.com/health/medicine-drugs/fda-approves-1st-pill-made-from-human-poop"
+    "text": "Infant microbiome/virome\nShotgun/Random hexamer amplification\n\n\n\n\n\n\n\n\n\n\nFigure 18: https://www.livescience.com/health/medicine-drugs/fda-approves-1st-pill-made-from-human-poop"
   },
   {
     "objectID": "index.html#diversities",
     "href": "index.html#diversities",
     "title": "A Sequence of Shenanigans",
     "section": "Diversities",
-    "text": "Diversities\n\n\n\n\n\n\n\n\n\n\nFigure 21: Alpha diversities over time\n\n\n\n\\[\nH_s = - \\sum_{i=1}^k p_i log_2(p_i)\n\\qquad(2)\\]"
+    "text": "Diversities\n\n\n\n\n\n\n\n\n\n\nFigure 19: Alpha diversities over time\n\n\n\n\\[\nH_s = - \\sum_{i=1}^k p_i log_2(p_i)\n\\qquad(2)\\]"
   },
   {
     "objectID": "index.html#example-results",
     "href": "index.html#example-results",
     "title": "A Sequence of Shenanigans",
     "section": "…Example results",
-    "text": "…Example results\n\n\n\n\n\n\n\n\n\n\nFigure 22: DOI: 10.1016/j.virusres.2024.199403\n\n\n\n\nKrona reports\nKrona 5b\nKrona 5d\nPavian analysis"
+    "text": "…Example results\n\n\n\n\n\n\n\n\n\n\nFigure 20: DOI: 10.1016/j.virusres.2024.199403\n\n\n\n\nKrona reports\nKrona 5b\nKrona 5d\nPavian analysis"
   },
   {
     "objectID": "index.html#urban-fungi",
     "href": "index.html#urban-fungi",
     "title": "A Sequence of Shenanigans",
     "section": "Urban fungi",
-    "text": "Urban fungi\nScanning electron micrograph images\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 23: https://www.ufs.ac.za/templates/news-archive-item/campus-news/2024/november/polluted-freshwater-a-risk-for-the-environment-and-human-health"
+    "text": "Urban fungi\nScanning electron micrograph images\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 21: https://www.ufs.ac.za/templates/news-archive-item/campus-news/2024/november/polluted-freshwater-a-risk-for-the-environment-and-human-health"
   },
   {
     "objectID": "index.html#fungi-results",
     "href": "index.html#fungi-results",
     "title": "A Sequence of Shenanigans",
     "section": "Fungi results",
-    "text": "Fungi results\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 24: Fungi classification (culture/ITS) and resistance DOI: 10.3390/jof11020086 and DOI: 10.2166/wh.2024.133\n\n\n\nAnalysis of ONT reads by BLASTn"
+    "text": "Fungi results\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 22: Fungi classification (culture/ITS) and resistance DOI: 10.3390/jof11020086 and DOI: 10.2166/wh.2024.133\n\n\n\nAnalysis of ONT reads by BLASTn"
   },
   {
     "objectID": "index.html#s-rrna-and-its-classifications",
@@ -193,76 +172,69 @@
     "href": "index.html#mozzie-hitchhikers",
     "title": "A Sequence of Shenanigans",
     "section": "Mozzie hitchhikers",
-    "text": "Mozzie hitchhikers\n\n\n\n\n\n\n\n\n\n\nFigure 25: DallE: Depict a mosquito in photorealistic style"
+    "text": "Mozzie hitchhikers\n\n\n\n\n\n\n\n\n\n\nFigure 23: DallE: Depict a mosquito in photorealistic style"
   },
   {
     "objectID": "index.html#bin-reads-and-blast",
     "href": "index.html#bin-reads-and-blast",
     "title": "A Sequence of Shenanigans",
     "section": "‘Bin’ reads and BLAST",
-    "text": "‘Bin’ reads and BLAST\nhttps://github.com/avierstr/amplicon_sorter\n\nCan handle multiple loci/genes/markers with single barcode\nGroups or bins raw reads into consensus sequences with higher accuracies\n\nExample\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 26: Clustermaps showing identity between sequences"
+    "text": "‘Bin’ reads and BLAST\nhttps://github.com/avierstr/amplicon_sorter\n\nCan handle multiple loci/genes/markers with single barcode\nGroups or bins raw reads into consensus sequences with higher accuracies\n\n\n\n\n\n\n\n\nAmplicon sorter\n\n\nExample"
+  },
+  {
+    "objectID": "index.html#clustering",
+    "href": "index.html#clustering",
+    "title": "A Sequence of Shenanigans",
+    "section": "Clustering",
+    "text": "Clustering\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 24: Clustermaps showing identity between sequences"
   },
   {
     "objectID": "index.html#also-id-vectors-and-molecular-marker-confirmation",
     "href": "index.html#also-id-vectors-and-molecular-marker-confirmation",
     "title": "A Sequence of Shenanigans",
     "section": "… also ID vectors and molecular marker confirmation",
-    "text": "… also ID vectors and molecular marker confirmation\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 27: Identification of arboviruses in mosquito populations in KwaZulu-Natal, South Africa and the first record of Wyeomyia mitchellii in the Old World (PLOS Neglected Tropical Diseases, In press)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 28: COI showed 99% identity against Genbank ref."
+    "text": "… also ID vectors and molecular marker confirmation\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 25: Identification of arboviruses in mosquito populations in KwaZulu-Natal, South Africa and the first record of Wyeomyia mitchellii in the Old World (PLOS Neglected Tropical Diseases, In press)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 26: COI showed 99% identity against Genbank ref."
   },
   {
     "objectID": "index.html#wgs-of-bagaza-virus",
     "href": "index.html#wgs-of-bagaza-virus",
     "title": "A Sequence of Shenanigans",
     "section": "WGS of Bagaza virus",
-    "text": "WGS of Bagaza virus\n\n\n\n\n\n\n\n\n\n\nFigure 29: DOI: 10.1016/j.jviromet.2024.114917\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 30: PCR tiles and Tree"
+    "text": "WGS of Bagaza virus\n\n\n\n\n\n\n\n\n\n\nFigure 27: DOI: 10.1016/j.jviromet.2024.114917\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 28: PCR tiles and Tree"
   },
   {
     "objectID": "index.html#smart-9n-de-novo-discovery",
     "href": "index.html#smart-9n-de-novo-discovery",
     "title": "A Sequence of Shenanigans",
     "section": "SMART-9N, de novo discovery",
-    "text": "SMART-9N, de novo discovery\n\n\n\n\n\n\n\n\n\n\nFigure 31: SMART-9N concept Paper DOI: 10.12688/wellcomeopenres.17170.2"
+    "text": "SMART-9N, de novo discovery\n\n\n\n\n\n\n\n\n\n\nFigure 29: SMART-9N concept Paper DOI: 10.12688/wellcomeopenres.17170.2"
   },
   {
     "objectID": "index.html#jingmenvirus",
     "href": "index.html#jingmenvirus",
     "title": "A Sequence of Shenanigans",
     "section": "… Jingmenvirus",
-    "text": "… Jingmenvirus\n\n\n\n\n\n\n\n\n\n\nFigure 32: DOI: https://doi.org/10.1038/s44298-025-00106-z"
-  },
-  {
-    "objectID": "index.html#mycobacterium-sequencing",
-    "href": "index.html#mycobacterium-sequencing",
-    "title": "A Sequence of Shenanigans",
-    "section": "Mycobacterium sequencing",
-    "text": "Mycobacterium sequencing\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 34: Assemblies of mycobacterium isolates\n\n\n\n\n\nRead QC with filtlong, pycoQC\nDe novo assembly with flye\nPolish with medaka\nAnnotate genome\n\nbakta and prokka\n\nResistance and SNP calling\n\nResFinder, abricate, TB-profiler"
-  },
-  {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "A Sequence of Shenanigans",
-    "section": "…",
-    "text": "…\n\n\n\n\n\n\n\n\n\n\nFigure 35: https://doi.org/10.3389/fmicb.2023.1307440"
+    "text": "… Jingmenvirus\n\n\n\n\n\n\n\n\n\n\nFigure 30: DOI: https://doi.org/10.1038/s44298-025-00106-z"
   },
   {
     "objectID": "index.html#other-applications-in-the-pipeline",
     "href": "index.html#other-applications-in-the-pipeline",
     "title": "A Sequence of Shenanigans",
     "section": "Other applications in the pipeline",
-    "text": "Other applications in the pipeline\n\nONT sequencing genetics\n\nmutliplex\neasy bioinfomatics\n\nCCHF WGS assay\nMycobacteria\n\nWGS\n\nphylogenomics\ndrug resistance\nvirulence\n\ntNGS / mycobiome, diagnostics\n\nC. albicans mRNA sequencing"
+    "text": "Other applications in the pipeline\n\nONT sequencing genetics\n\nmutliplex\neasy bioinfomatics\n\nMicrobial identification\nCCHF WGS assay\nJMV whole genome\nMycobacteria\n\nWGS\n\nphylogenomics\ndrug resistance\nvirulence\n\ntNGS / mycobiome, diagnostics\n\nPapio ursinus whole genome sequencing"
   },
   {
     "objectID": "index.html#the-gray-matter",
     "href": "index.html#the-gray-matter",
     "title": "A Sequence of Shenanigans",
     "section": "The Gray Matter",
-    "text": "The Gray Matter\n\n\n\nVector Borne Pathogen Research Group\n\nFelicity Burt\nDanelle van Jaarsveldt\nGernus Terblanche\nNosipho Masoto\nBonolo Masilo\nRontondwa Bubuluma\n\nUFS NGS Unit\n\nMartin Nyaga\nMilton Mogotsi\n\nPathogenic Yeast Group\n\nCarlien Pohl-Albertyn\nTyla Baker\nKoos Albertyn\n\n\n\n\nHaematology\n\nStephanie Kennedy\nJean Klopper\n\nTB One Health\n\nWynand Goosen\nTristen Lourens\nGiovanni Ghielmetti\n\neResearch and HPC\n\nAlbert van Eck\nFanie Reikert\nFranck Hough\n\nSamantha Potgieter\nDominique Goedhals"
+    "text": "The Gray Matter\n\n\n\nVector Borne Pathogen Research Group\n\nFelicity Burt\nDanelle van Jaarsveldt\nGernus Terblanche\nNosipho Masoto\nBonolo Masilo\nRontondwa Bubuluma\n\nUFS NGS Unit\n\nMartin Nyaga\nMilton Mogotsi\n\n\n\n\nPathogenic Yeast Group\n\nCarlien Pohl-Albertyn\nTyla Baker\nKoos Albertyn\n\neResearch and HPC\n\nAlbert van Eck\nFanie Reikert\nFranck Hough"
   },
   {
     "objectID": "index.html#local-computing-power",
     "href": "index.html#local-computing-power",
     "title": "A Sequence of Shenanigans",
     "section": "Local computing power",
-    "text": "Local computing power\n\n\n\n\n\n\n\n\n\n\nFigure 36: eRN/HPC at the UFS"
+    "text": "Local computing power\n\n\n\n\n\n\n\n\n\n\nFigure 32: eRN/HPC at the UFS"
   }
 ]

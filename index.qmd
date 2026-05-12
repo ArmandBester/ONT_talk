@@ -59,58 +59,9 @@ If I have a 1 in 10 chance of an error, which is random:
 
 $$(\frac{1}{10})^{10} = \frac{1}{10^{10}}$$
 
-
-## PacBio Single-molecule real-time (SMRT)
-
-* Library preparation
-    * Formation of a SMRTbell as template
-        * Closed single stranded circular DNA
-        * This is achieved by ligating hairpin adaptors to both ends of the target dsDNA
-
-::: {#fig-dumbell layout-ncol=1}
-
-![](media/SMRTbell.png){width=100%}
-
-Rhoads A and Fai Au K (2015), doi: 10.1016/j.gpb.2015.08.002
-
+::: {.callout-tip title="Continued improvement"}
+Both chemistry and basecalling
 :::
-
----
-
-* The SMRTbell is loaded onto chip and diffuses into one of many sequencing units, called a zero-mode waveguide (ZMW)
-    * The smallest available volume for light detection, removing background
-* Each one of these ZMWs have a DNA polymerase immobilized at the bottom
-    * This polymerase can then bind to either of the hairpins
-    * Fluorescent labeled nucleotides are provided to the ZMW and thus the enzyme
-        * Each of the 4 nucleotides are labeled with fluorophores emitting different wavelengths
-            * Allows differentiation
-        * Flourophores are covalently attached on the γ-phosphate
-* On each incorporation of a labeled dNTP, a light pulse is produced
-
----
-
-* Along with the the ZMW a camera can record these light flashes and the sequences is deduced
-* A single pass results in a sequence accuracy of 11-15%
-    * However, since the template is circular, multiple passes is possible
-        * Due to the randomness of error an accuracy rate of ~99.9% is possible
-        * Sequencing and passes are possible until the enzyme stops working or for the duration of the enzymes lifetime
-        * There is a trade of between sequence accuracy and read length
-
-::: {#fig-pacbio-qual layout-ncol=1}
-
-![](media/pacbio_reads.png){width=30%}
-
-https://www.pacb.com/technology/hifi-sequencing/how-it-works/
-
-:::
-
-## Pacific Biosciences: Sales pitch
-
-{{< video https://www.youtube.com/watch?v=v8p4ph2MAvI
-    title="Pacific Biosciences"
-    width="1120" height="630" 
->}}
-
 
 
 ## Oxford Nanopore Technologies
@@ -148,12 +99,6 @@ https://nanoporetech.com/platform/accuracy
 
 :::
 
-## Oxford Nanopore Technologies: Sales pitch
-
-{{< video https://www.youtube.com/watch?v=RcP85JHLmnI
-    title="Pacific Biosciences"
-    width="1120" height="630" 
->}}
 
 ## Innovations from different fields
 
@@ -417,8 +362,12 @@ DallE: Depict a mosquito in photorealistic style
 * Can handle multiple loci/genes/markers with single barcode
 * Groups or bins raw reads into consensus sequences with higher accuracies
 
+::: {.callout-tip title="Amplicon sorter"}
 [Example](html/Nos_Blast.html)
+:::
 
+
+## Clustering
 
 ::: {#fig-cluster layout-ncol="2"}
 
@@ -510,60 +459,22 @@ SMART-9N concept [Paper DOI: 10.12688/wellcomeopenres.17170.2](https://pmc.ncbi.
 * First in SA
 
 
-## Mycobacterium sequencing
-
-::::: {.columns}
-
-:::: {.column width="50%"}
-
-::: {#fig-myco-wgs layout-ncol="1"}
-
-![](media/myco_hybracter.gif){width="550"}
-
-Assemblies of mycobacterium isolates
-
-:::
-
-::::
-
-:::: {.column width="50%"}
-
-* Read QC with filtlong, pycoQC
-* *De novo* assembly with flye
-* Polish with medaka
-* Annotate genome
-    * bakta and prokka 
-* Resistance and SNP calling
-    * ResFinder, abricate, TB-profiler
-
-::::
-
-:::::
-
-## ...
-
-::: {#fig-whole-gen-seq-mycob layout-ncol="1"}
-
-![](media/goosen.png)
-
-[https://doi.org/10.3389/fmicb.2023.1307440](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1307440/full)
-
-:::
-
 
 ## Other applications in the pipeline
 
 * ONT sequencing genetics 
     * mutliplex
     * easy bioinfomatics
+* Microbial identification
 * CCHF WGS assay
+* JMV whole genome
 * Mycobacteria
     * WGS
         * phylogenomics
         * drug resistance
         * virulence 
     * tNGS / mycobiome, diagnostics
-* C. albicans mRNA sequencing
+* *Papio ursinus* whole genome sequencing
 
 
 
@@ -582,26 +493,21 @@ Assemblies of mycobacterium isolates
 * UFS NGS Unit
     * Martin Nyaga
     * Milton Mogotsi
+
+:::
+
+::: {.column width="50%"}
+
 * Pathogenic Yeast Group
     * Carlien Pohl-Albertyn
     * Tyla Baker
     * Koos Albertyn
-:::
 
-::: {.column width="50%"}
-* Haematology
-    * Stephanie Kennedy
-    * Jean Klopper
-* TB One Health
-    * Wynand Goosen
-    * Tristen Lourens
-    * Giovanni Ghielmetti
 * eResearch and HPC
     * Albert van Eck
     * Fanie Reikert
     * Franck Hough
-* Samantha Potgieter
-* Dominique Goedhals
+
 :::
 
 ::::

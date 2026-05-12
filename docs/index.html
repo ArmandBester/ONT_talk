@@ -195,88 +195,21 @@ Figure&nbsp;2: Oehler JB, et al (2023) DOI: 10.1186/s40246-023-00522-3
 </ul>
 <p>If I have a 1 in 10 chance of an error, which is random:</p>
 <p><span class="math display">\[(\frac{1}{10})^{10} = \frac{1}{10^{10}}\]</span></p>
-</section>
-<section id="pacbio-single-molecule-real-time-smrt" class="slide level2">
-<h2>PacBio Single-molecule real-time (SMRT)</h2>
-<ul>
-<li>Library preparation
-<ul>
-<li>Formation of a SMRTbell as template
-<ul>
-<li>Closed single stranded circular DNA</li>
-<li>This is achieved by ligating hairpin adaptors to both ends of the target dsDNA</li>
-</ul></li>
-</ul></li>
-</ul>
-<div id="fig-dumbell" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-dumbell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<img data-src="media/SMRTbell.png" style="width:100.0%">
+<div title="Continued improvement">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Continued improvement</strong></p>
+</div>
+<div class="callout-content">
+<p>Both chemistry and basecalling</p>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dumbell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Rhoads A and Fai Au K (2015), doi: 10.1016/j.gpb.2015.08.002
-</figcaption>
-</figure>
 </div>
-</section>
-<section class="slide level2">
-
-<ul>
-<li>The SMRTbell is loaded onto chip and diffuses into one of many sequencing units, called a zero-mode waveguide (ZMW)
-<ul>
-<li>The smallest available volume for light detection, removing background</li>
-</ul></li>
-<li>Each one of these ZMWs have a DNA polymerase immobilized at the bottom
-<ul>
-<li>This polymerase can then bind to either of the hairpins</li>
-<li>Fluorescent labeled nucleotides are provided to the ZMW and thus the enzyme
-<ul>
-<li>Each of the 4 nucleotides are labeled with fluorophores emitting different wavelengths
-<ul>
-<li>Allows differentiation</li>
-</ul></li>
-<li>Flourophores are covalently attached on the γ-phosphate</li>
-</ul></li>
-</ul></li>
-<li>On each incorporation of a labeled dNTP, a light pulse is produced</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li>Along with the the ZMW a camera can record these light flashes and the sequences is deduced</li>
-<li>A single pass results in a sequence accuracy of 11-15%
-<ul>
-<li>However, since the template is circular, multiple passes is possible
-<ul>
-<li>Due to the randomness of error an accuracy rate of ~99.9% is possible</li>
-<li>Sequencing and passes are possible until the enzyme stops working or for the duration of the enzymes lifetime</li>
-<li>There is a trade of between sequence accuracy and read length</li>
-</ul></li>
-</ul></li>
-</ul>
-<div id="fig-pacbio-qual" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-pacbio-qual-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<img data-src="media/pacbio_reads.png" style="width:30.0%">
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pacbio-qual-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: https://www.pacb.com/technology/hifi-sequencing/how-it-works/
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="pacific-biosciences-sales-pitch" class="slide level2">
-<h2>Pacific Biosciences: Sales pitch</h2>
-<iframe data-external="1" src="https://www.youtube.com/embed/v8p4ph2MAvI" width="1120" height="630" title="Pacific Biosciences" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
 <section id="oxford-nanopore-technologies" class="slide level2">
 <h2>Oxford Nanopore Technologies</h2>
@@ -293,7 +226,7 @@ Figure&nbsp;4: https://www.pacb.com/technology/hifi-sequencing/how-it-works/
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ont-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;5: https://nanoporetech.com/platform/technology/basecalling
+Figure&nbsp;3: https://nanoporetech.com/platform/technology/basecalling
 </figcaption>
 </figure>
 </div>
@@ -328,14 +261,10 @@ Figure&nbsp;5: https://nanoporetech.com/platform/technology/basecalling
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ont-qual-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6: https://nanoporetech.com/platform/accuracy
+Figure&nbsp;4: https://nanoporetech.com/platform/accuracy
 </figcaption>
 </figure>
 </div>
-</section>
-<section id="oxford-nanopore-technologies-sales-pitch" class="slide level2">
-<h2>Oxford Nanopore Technologies: Sales pitch</h2>
-<iframe data-external="1" src="https://www.youtube.com/embed/RcP85JHLmnI" width="1120" height="630" title="Pacific Biosciences" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
 <section id="innovations-from-different-fields" class="slide level2">
 <h2>Innovations from different fields</h2>
@@ -349,7 +278,7 @@ Figure&nbsp;6: https://nanoporetech.com/platform/accuracy
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-nobel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7: https://doi.org/10.1038/s41746-024-01345-9
+Figure&nbsp;5: https://doi.org/10.1038/s41746-024-01345-9
 </figcaption>
 </figure>
 </div>
@@ -372,7 +301,7 @@ Figure&nbsp;7: https://doi.org/10.1038/s41746-024-01345-9
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ont-qual-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;8: Yanzhe Qin, et al (2025) DOI: https://doi.org/10.1038/s41592-025-02730-2
+Figure&nbsp;6: Yanzhe Qin, et al (2025) DOI: https://doi.org/10.1038/s41592-025-02730-2
 </figcaption>
 </figure>
 </div>
@@ -389,7 +318,7 @@ Figure&nbsp;8: Yanzhe Qin, et al (2025) DOI: https://doi.org/10.1038/s41592-025-
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-moore-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;9: https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data
+Figure&nbsp;7: https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data
 </figcaption>
 </figure>
 </div>
@@ -424,7 +353,7 @@ Q60 = 99.9999%    (1/1,000,000 chance of an incorrect base call)</code></pre>
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fastq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;10: https://www.drive5.com/usearch/manual/fastq_files.html
+Figure&nbsp;8: https://www.drive5.com/usearch/manual/fastq_files.html
 </figcaption>
 </figure>
 </div>
@@ -444,7 +373,7 @@ Figure&nbsp;10: https://www.drive5.com/usearch/manual/fastq_files.html
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-puzzle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;11: DallE generated flowers &amp; Read types
+Figure&nbsp;9: DallE generated flowers &amp; Read types
 </figcaption>
 </figure>
 </div>
@@ -461,7 +390,7 @@ Figure&nbsp;11: DallE generated flowers &amp; Read types
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-alpha-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;12: Illustration by David S. Goodsell, RCSB Protein Data Bank; doi: 10.2210/rcsb_pdb/goodsell-gallery-026
+Figure&nbsp;10: Illustration by David S. Goodsell, RCSB Protein Data Bank; doi: 10.2210/rcsb_pdb/goodsell-gallery-026
 </figcaption>
 </figure>
 </div>
@@ -482,7 +411,7 @@ Figure&nbsp;12: Illustration by David S. Goodsell, RCSB Protein Data Bank; doi: 
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-primal_scheme-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;13: Trippy tunes and tiling PCR design software
+Figure&nbsp;11: Trippy tunes and tiling PCR design software
 </figcaption>
 </figure>
 </div>
@@ -499,7 +428,7 @@ Figure&nbsp;13: Trippy tunes and tiling PCR design software
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tiled-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;14: Snapshot of tiled PCR products mapped against SARS-COV2 ref genome
+Figure&nbsp;12: Snapshot of tiled PCR products mapped against SARS-COV2 ref genome
 </figcaption>
 </figure>
 </div>
@@ -519,7 +448,7 @@ Figure&nbsp;14: Snapshot of tiled PCR products mapped against SARS-COV2 ref geno
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-contam-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;15: A dodgy pink calculator and the lemonade
+Figure&nbsp;13: A dodgy pink calculator and the lemonade
 </figcaption>
 </figure>
 </div>
@@ -536,7 +465,7 @@ Figure&nbsp;15: A dodgy pink calculator and the lemonade
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-global-covid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;16: <a href="https://nextstrain.org/ncov/gisaid/global/6m?branchLabel=emerging_lineage&amp;tl=clade_membership">GISAID</a>
+Figure&nbsp;14: <a href="https://nextstrain.org/ncov/gisaid/global/6m?branchLabel=emerging_lineage&amp;tl=clade_membership">GISAID</a>
 </figcaption>
 </figure>
 </div>
@@ -554,7 +483,7 @@ Figure&nbsp;16: <a href="https://nextstrain.org/ncov/gisaid/global/6m?branchLabe
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-early_days-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;17: https://epi2me.nanoporetech.com/sarscov2-midnight-analysis/
+Figure&nbsp;15: https://epi2me.nanoporetech.com/sarscov2-midnight-analysis/
 </figcaption>
 </figure>
 </div>
@@ -577,7 +506,7 @@ Figure&nbsp;17: https://epi2me.nanoporetech.com/sarscov2-midnight-analysis/
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-kraken-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;18: Flux AI: Kraken sea monster with a tentacle in a bag of differently coloured pebbles and DOI:https://doi.org/10.1038/s41596-022-00738-y
+Figure&nbsp;16: Flux AI: Kraken sea monster with a tentacle in a bag of differently coloured pebbles and DOI:https://doi.org/10.1038/s41596-022-00738-y
 </figcaption>
 </figure>
 </div>
@@ -591,7 +520,7 @@ Figure&nbsp;18: Flux AI: Kraken sea monster with a tentacle in a bag of differen
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-kraken-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;19: Comput Math Methods Med. 2021 Jul 15;2021:1835056. doi: 10.1155/2021/1835056.
+Figure&nbsp;17: Comput Math Methods Med. 2021 Jul 15;2021:1835056. doi: 10.1155/2021/1835056.
 </figcaption>
 </figure>
 </div>
@@ -609,7 +538,7 @@ Figure&nbsp;19: Comput Math Methods Med. 2021 Jul 15;2021:1835056. doi: 10.1155/
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gut-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;20: https://www.livescience.com/health/medicine-drugs/fda-approves-1st-pill-made-from-human-poop
+Figure&nbsp;18: https://www.livescience.com/health/medicine-drugs/fda-approves-1st-pill-made-from-human-poop
 </figcaption>
 </figure>
 </div>
@@ -626,7 +555,7 @@ Figure&nbsp;20: https://www.livescience.com/health/medicine-drugs/fda-approves-1
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-alpha-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;21: Alpha diversities over time
+Figure&nbsp;19: Alpha diversities over time
 </figcaption>
 </figure>
 </div>
@@ -646,7 +575,7 @@ H_s = - \sum_{i=1}^k p_i log_2(p_i)
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-alpha-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;22: <a href="https://pubmed.ncbi.nlm.nih.gov/38776984/">DOI: 10.1016/j.virusres.2024.199403</a>
+Figure&nbsp;20: <a href="https://pubmed.ncbi.nlm.nih.gov/38776984/">DOI: 10.1016/j.virusres.2024.199403</a>
 </figcaption>
 </figure>
 </div>
@@ -673,7 +602,7 @@ Figure&nbsp;22: <a href="https://pubmed.ncbi.nlm.nih.gov/38776984/">DOI: 10.1016
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;23: <a href="https://www.ufs.ac.za/templates/news-archive-item/campus-news/2024/november/polluted-freshwater-a-risk-for-the-environment-and-human-health">https://www.ufs.ac.za/templates/news-archive-item/campus-news/2024/november/polluted-freshwater-a-risk-for-the-environment-and-human-health</a>
+Figure&nbsp;21: <a href="https://www.ufs.ac.za/templates/news-archive-item/campus-news/2024/november/polluted-freshwater-a-risk-for-the-environment-and-human-health">https://www.ufs.ac.za/templates/news-archive-item/campus-news/2024/november/polluted-freshwater-a-risk-for-the-environment-and-human-health</a>
 </figcaption>
 </figure>
 </div>
@@ -695,7 +624,7 @@ Figure&nbsp;23: <a href="https://www.ufs.ac.za/templates/news-archive-item/campu
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tyla-pubs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;24: Fungi classification (culture/ITS) and resistance <a href="https://pubmed.ncbi.nlm.nih.gov/39997380/">DOI: 10.3390/jof11020086</a> and <a href="https://doi.org/10.2166/wh.2024.133">DOI: 10.2166/wh.2024.133</a>
+Figure&nbsp;22: Fungi classification (culture/ITS) and resistance <a href="https://pubmed.ncbi.nlm.nih.gov/39997380/">DOI: 10.3390/jof11020086</a> and <a href="https://doi.org/10.2166/wh.2024.133">DOI: 10.2166/wh.2024.133</a>
 </figcaption>
 </figure>
 </div>
@@ -718,7 +647,7 @@ Figure&nbsp;24: Fungi classification (culture/ITS) and resistance <a href="https
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mozzie-hitch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;25: DallE: Depict a mosquito in photorealistic style
+Figure&nbsp;23: DallE: Depict a mosquito in photorealistic style
 </figcaption>
 </figure>
 </div>
@@ -730,7 +659,24 @@ Figure&nbsp;25: DallE: Depict a mosquito in photorealistic style
 <li>Can handle multiple loci/genes/markers with single barcode</li>
 <li>Groups or bins raw reads into consensus sequences with higher accuracies</li>
 </ul>
+<div title="Amplicon sorter">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Amplicon sorter</strong></p>
+</div>
+<div class="callout-content">
 <p><a href="html/Nos_Blast.html">Example</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="clustering" class="slide level2">
+<h2>Clustering</h2>
 <div id="fig-cluster" class="quarto-layout-panel">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-cluster-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -744,7 +690,7 @@ Figure&nbsp;25: DallE: Depict a mosquito in photorealistic style
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cluster-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;26: Clustermaps showing identity between sequences
+Figure&nbsp;24: Clustermaps showing identity between sequences
 </figcaption>
 </figure>
 </div>
@@ -764,7 +710,7 @@ Figure&nbsp;26: Clustermaps showing identity between sequences
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wyeomyia_mitchellii-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;27: Identification of arboviruses in mosquito populations in KwaZulu-Natal, South Africa and the first record of Wyeomyia mitchellii in the Old World (PLOS Neglected Tropical Diseases, In press)
+Figure&nbsp;25: Identification of arboviruses in mosquito populations in KwaZulu-Natal, South Africa and the first record of Wyeomyia mitchellii in the Old World (PLOS Neglected Tropical Diseases, In press)
 </figcaption>
 </figure>
 </div>
@@ -778,7 +724,7 @@ Figure&nbsp;27: Identification of arboviruses in mosquito populations in KwaZulu
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wyeomyia_mitchellii-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;28: COI showed 99% identity against Genbank ref.
+Figure&nbsp;26: COI showed 99% identity against Genbank ref.
 </figcaption>
 </figure>
 </div>
@@ -795,7 +741,7 @@ Figure&nbsp;28: COI showed 99% identity against Genbank ref.
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bagaza-publ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;29: <a href="https://pubmed.ncbi.nlm.nih.gov/38503367/">DOI: 10.1016/j.jviromet.2024.114917</a>
+Figure&nbsp;27: <a href="https://pubmed.ncbi.nlm.nih.gov/38503367/">DOI: 10.1016/j.jviromet.2024.114917</a>
 </figcaption>
 </figure>
 </div>
@@ -812,7 +758,7 @@ Figure&nbsp;29: <a href="https://pubmed.ncbi.nlm.nih.gov/38503367/">DOI: 10.1016
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bagaza-publ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;30: PCR tiles and Tree
+Figure&nbsp;28: PCR tiles and Tree
 </figcaption>
 </figure>
 </div>
@@ -829,7 +775,7 @@ Figure&nbsp;30: PCR tiles and Tree
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-smart-9N-concept-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;31: SMART-9N concept <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189296/">Paper DOI: 10.12688/wellcomeopenres.17170.2</a>
+Figure&nbsp;29: SMART-9N concept <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189296/">Paper DOI: 10.12688/wellcomeopenres.17170.2</a>
 </figcaption>
 </figure>
 </div>
@@ -846,7 +792,7 @@ Figure&nbsp;31: SMART-9N concept <a href="https://pmc.ncbi.nlm.nih.gov/articles/
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bagaza-publ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;32: <a href="https://doi.org/10.1038/s44298-025-00106-z">DOI: https://doi.org/10.1038/s44298-025-00106-z</a>
+Figure&nbsp;30: <a href="https://doi.org/10.1038/s44298-025-00106-z">DOI: https://doi.org/10.1038/s44298-025-00106-z</a>
 </figcaption>
 </figure>
 </div>
@@ -866,7 +812,7 @@ Figure&nbsp;32: <a href="https://doi.org/10.1038/s44298-025-00106-z">DOI: https:
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-jignmen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;33: <a href="https://doi.org/10.1038/s44298-025-00106-z">DOI: https://doi.org/10.1038/s44298-025-00106-z</a>
+Figure&nbsp;31: <a href="https://doi.org/10.1038/s44298-025-00106-z">DOI: https://doi.org/10.1038/s44298-025-00106-z</a>
 </figcaption>
 </figure>
 </div>
@@ -877,57 +823,6 @@ Figure&nbsp;33: <a href="https://doi.org/10.1038/s44298-025-00106-z">DOI: https:
 <li>First in SA</li>
 </ul>
 </section>
-<section id="mycobacterium-sequencing" class="slide level2">
-<h2>Mycobacterium sequencing</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div id="fig-myco-wgs" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-myco-wgs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<img data-src="media/myco_hybracter.gif" width="550">
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-myco-wgs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;34: Assemblies of mycobacterium isolates
-</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:50%;">
-<ul>
-<li>Read QC with filtlong, pycoQC</li>
-<li><em>De novo</em> assembly with flye</li>
-<li>Polish with medaka</li>
-<li>Annotate genome
-<ul>
-<li>bakta and prokka</li>
-</ul></li>
-<li>Resistance and SNP calling
-<ul>
-<li>ResFinder, abricate, TB-profiler</li>
-</ul></li>
-</ul>
-</div></div>
-</section>
-<section id="section" class="slide level2">
-<h2>…</h2>
-<div id="fig-whole-gen-seq-mycob" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-whole-gen-seq-mycob-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<img data-src="media/goosen.png">
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-whole-gen-seq-mycob-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;35: <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1307440/full">https://doi.org/10.3389/fmicb.2023.1307440</a>
-</figcaption>
-</figure>
-</div>
-</section>
 <section id="other-applications-in-the-pipeline" class="slide level2">
 <h2>Other applications in the pipeline</h2>
 <ul>
@@ -936,7 +831,9 @@ Figure&nbsp;35: <a href="https://www.frontiersin.org/journals/microbiology/artic
 <li>mutliplex</li>
 <li>easy bioinfomatics</li>
 </ul></li>
+<li>Microbial identification</li>
 <li>CCHF WGS assay</li>
+<li>JMV whole genome</li>
 <li>Mycobacteria
 <ul>
 <li>WGS
@@ -947,7 +844,7 @@ Figure&nbsp;35: <a href="https://www.frontiersin.org/journals/microbiology/artic
 </ul></li>
 <li>tNGS / mycobiome, diagnostics</li>
 </ul></li>
-<li>C. albicans mRNA sequencing</li>
+<li><em>Papio ursinus</em> whole genome sequencing</li>
 </ul>
 </section>
 <section id="the-gray-matter" class="slide level2">
@@ -969,25 +866,14 @@ Figure&nbsp;35: <a href="https://www.frontiersin.org/journals/microbiology/artic
 <li>Martin Nyaga</li>
 <li>Milton Mogotsi</li>
 </ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
 <li>Pathogenic Yeast Group
 <ul>
 <li>Carlien Pohl-Albertyn</li>
 <li>Tyla Baker</li>
 <li>Koos Albertyn</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<ul>
-<li>Haematology
-<ul>
-<li>Stephanie Kennedy</li>
-<li>Jean Klopper</li>
-</ul></li>
-<li>TB One Health
-<ul>
-<li>Wynand Goosen</li>
-<li>Tristen Lourens</li>
-<li>Giovanni Ghielmetti</li>
 </ul></li>
 <li>eResearch and HPC
 <ul>
@@ -995,8 +881,6 @@ Figure&nbsp;35: <a href="https://www.frontiersin.org/journals/microbiology/artic
 <li>Fanie Reikert</li>
 <li>Franck Hough</li>
 </ul></li>
-<li>Samantha Potgieter</li>
-<li>Dominique Goedhals</li>
 </ul>
 </div></div>
 </section>
@@ -1012,7 +896,7 @@ Figure&nbsp;35: <a href="https://www.frontiersin.org/journals/microbiology/artic
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-computing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;36: eRN/HPC at the UFS
+Figure&nbsp;32: eRN/HPC at the UFS
 </figcaption>
 </figure>
 </div>
