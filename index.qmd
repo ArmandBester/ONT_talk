@@ -9,7 +9,7 @@ author:
         department: Department of Virology
         city: Bloemfontein
         state: Free State
-date: 02 October 2025
+date: 13 May 2026
 format: 
     revealjs:
         logo: media/logo.png
