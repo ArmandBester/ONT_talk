@@ -48,6 +48,20 @@ Oehler JB, et al (2023) DOI: 10.1186/s40246-023-00522-3
 
 :::
 
+## Oxford Nanopore Technologies
+
+::: {#fig-ont layout-ncol=2}
+
+![](media/ont_ASIC.webp){width="300"}
+
+![](media/MinION_GIF_08.gif){width="800"}
+
+
+https://nanoporetech.com/platform/technology/basecalling
+
+:::
+
+
 ## ... Pros and cons
 
 * Does not require clonal amplification
@@ -63,19 +77,6 @@ $$(\frac{1}{10})^{10} = \frac{1}{10^{10}}$$
 Both chemistry and basecalling
 :::
 
-
-## Oxford Nanopore Technologies
-
-::: {#fig-ont layout-ncol=2}
-
-![](media/ont_ASIC.webp){width="300"}
-
-![](media/MinION_GIF_08.gif){width="800"}
-
-
-https://nanoporetech.com/platform/technology/basecalling
-
-:::
 
 ## The ONT principle
 

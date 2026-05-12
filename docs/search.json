@@ -14,18 +14,18 @@
     "text": "Single molecule sequencing\n\n\n\n\n\n\n\n\n\n\nFigure 2: Oehler JB, et al (2023) DOI: 10.1186/s40246-023-00522-3"
   },
   {
-    "objectID": "index.html#pros-and-cons",
-    "href": "index.html#pros-and-cons",
-    "title": "A Sequence of Shenanigans",
-    "section": "… Pros and cons",
-    "text": "… Pros and cons\n\nDoes not require clonal amplification\nLibrary preparation is much simpler\nGenerates much longer reads\nSuffers from accuracy - or maybe not so much\n\nIf I have a 1 in 10 chance of an error, which is random:\n\\[(\\frac{1}{10})^{10} = \\frac{1}{10^{10}}\\]\n\n\n\n\n\n\n\nContinued improvement\n\n\nBoth chemistry and basecalling"
-  },
-  {
     "objectID": "index.html#oxford-nanopore-technologies",
     "href": "index.html#oxford-nanopore-technologies",
     "title": "A Sequence of Shenanigans",
     "section": "Oxford Nanopore Technologies",
     "text": "Oxford Nanopore Technologies\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 3: https://nanoporetech.com/platform/technology/basecalling"
+  },
+  {
+    "objectID": "index.html#pros-and-cons",
+    "href": "index.html#pros-and-cons",
+    "title": "A Sequence of Shenanigans",
+    "section": "… Pros and cons",
+    "text": "… Pros and cons\n\nDoes not require clonal amplification\nLibrary preparation is much simpler\nGenerates much longer reads\nSuffers from accuracy - or maybe not so much\n\nIf I have a 1 in 10 chance of an error, which is random:\n\\[(\\frac{1}{10})^{10} = \\frac{1}{10^{10}}\\]\n\n\n\n\n\n\n\nContinued improvement\n\n\nBoth chemistry and basecalling"
   },
   {
     "objectID": "index.html#the-ont-principle",
