@@ -25,14 +25,7 @@
     "href": "index.html#pros-and-cons",
     "title": "A Sequence of Shenanigans",
     "section": "… Pros and cons",
-    "text": "… Pros and cons\n\nDoes not require clonal amplification\nLibrary preparation is much simpler\nGenerates much longer reads\nSuffers from accuracy - or maybe not so much\n\nIf I have a 1 in 10 chance of an error, which is random:\n\\[(\\frac{1}{10})^{10} = \\frac{1}{10^{10}}\\]\n\n\n\n\n\n\n\nContinued improvement\n\n\nBoth chemistry and basecalling"
-  },
-  {
-    "objectID": "index.html#the-ont-principle",
-    "href": "index.html#the-ont-principle",
-    "title": "A Sequence of Shenanigans",
-    "section": "The ONT principle",
-    "text": "The ONT principle\n\nBiological pores or transporters are embedded in a semiconductor chip\n\nAs particles pass through this chip the resistance over the membrane changes\n\ndsDNA or RNA is mixed with a motor protein which binds these molecules to the pores\nThe DNA or RNA is threaded through the pores and the changes in current is recorded\nThis wave pattern is used to infer the sequence\nVery long read lengths\nCan detect epigenetics\nThey promise protein sequencing\n\nMulti-omics"
+    "text": "… Pros and cons\n\nDoes not require clonal amplification\nLibrary preparation is much simpler\nGenerates much longer reads\nSuffers from accuracy - or does it?\n\nIf I have a 1 in 10 chance of an error; which is random:\n\\[(\\frac{1}{10})^{10} = \\frac{1}{10^{10}}\\]\n\n\n\n\n\n\n\nContinued improvement\n\n\nBoth chemistry and basecalling"
   },
   {
     "objectID": "index.html#innovations-from-different-fields",

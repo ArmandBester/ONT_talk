@@ -67,9 +67,9 @@ https://nanoporetech.com/platform/technology/basecalling
 * Does not require clonal amplification
 * Library preparation is much simpler
 * Generates much longer reads
-* Suffers from accuracy - or maybe not so much
+* Suffers from accuracy - or does it?
 
-If I have a 1 in 10 chance of an error, which is random:
+If I have a 1 in 10 chance of an error; which is random:
 
 $$(\frac{1}{10})^{10} = \frac{1}{10^{10}}$$
 
@@ -77,18 +77,6 @@ $$(\frac{1}{10})^{10} = \frac{1}{10^{10}}$$
 Both chemistry and basecalling
 :::
 
-
-## The ONT principle
-
-* Biological pores or transporters are embedded in a semiconductor chip
-    * As particles pass through this chip the resistance over the membrane changes
-* dsDNA or RNA is mixed with a motor protein which binds these molecules to the pores
-* The DNA or RNA is threaded through the pores and the changes in current is recorded
-* This wave pattern is used to infer the sequence
-* Very long read lengths
-* Can detect epigenetics
-* They promise protein sequencing
-    * Multi-omics
 
 ---
 
