@@ -217,6 +217,13 @@
     "text": "Other applications in the pipeline\n\nONT sequencing genetics\n\nmutliplex\neasy bioinfomatics\n\nMicrobial identification\nCCHF WGS assay\nJMV whole genome\nMycobacteria\n\nWGS\n\nphylogenomics\ndrug resistance\nvirulence\n\ntNGS / mycobiome, diagnostics\n\nPapio ursinus whole genome sequencing"
   },
   {
+    "objectID": "index.html#analysis-options",
+    "href": "index.html#analysis-options",
+    "title": "A Sequence of Shenanigans",
+    "section": "Analysis options",
+    "text": "Analysis options\n\n\n\n\n\n\n\n\n\n\nFigure 32\n\n\n\nnf-core | EPI2ME"
+  },
+  {
     "objectID": "index.html#the-gray-matter",
     "href": "index.html#the-gray-matter",
     "title": "A Sequence of Shenanigans",
@@ -228,6 +235,6 @@
     "href": "index.html#local-computing-power",
     "title": "A Sequence of Shenanigans",
     "section": "Local computing power",
-    "text": "Local computing power\n\n\n\n\n\n\n\n\n\n\nFigure 32: eRN/HPC at the UFS"
+    "text": "Local computing power\n\n\n\n\n\n\n\n\n\n\nFigure 33: eRN/HPC at the UFS"
   }
 ]

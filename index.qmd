@@ -466,6 +466,14 @@ SMART-9N concept [Paper DOI: 10.12688/wellcomeopenres.17170.2](https://pmc.ncbi.
 * *Papio ursinus* whole genome sequencing
 
 
+## Analysis options
+
+::: {#fig-annalysis layout-ncol=1}
+![](media/taxprofiler_tube.png){width="85%"}
+:::
+
+[nf-core](https://nf-co.re/) | [EPI2ME](https://epi2me.nanoporetech.com/compost_mgx_2026.04/)
+
 
 ## The Gray Matter
 
